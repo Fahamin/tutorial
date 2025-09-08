@@ -5,7 +5,7 @@
 
 <div class="container mt-5">
 
-<a href="{{ route('shop.index') }}" class="btn btn-primary mb-3">]Shop List</a>
+<a href="{{ route('shop.index') }}" class="btn btn-primary mb-3">Shop List</a>
 
 <form action="{{ route ('shop.store')  }}" method="POST">
     @csrf
